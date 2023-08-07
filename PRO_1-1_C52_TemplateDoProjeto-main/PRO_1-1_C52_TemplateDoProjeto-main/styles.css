@@ -1,0 +1,73 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: #f7f2f2;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.bodyimg {
+    position: relative; 
+}
+
+.bodyimg p {
+    color: #f7f2f2;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bodyimg h3 {
+    color: #f7f2f2;
+    font-family: fantasy;
+    font-size: 30px;
+    max-width: 80%; 
+    position: absolute;
+    top: 70%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 40px auto; 
+    font-family: sans-serif;
+}
+
+.grid img {
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+.origami {
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width: 310px;
+    font-family: fantasy;
+    transition: transform 0.3s;
+}
+
+.origami:hover {
+    transform: scale(1.1); 
+}
